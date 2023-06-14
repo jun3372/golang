@@ -137,6 +137,7 @@ for version in "${versions[@]}"; do
 		continue
 	fi
 
+
 	echo "$version: $fullVersion"
 
 	doc="$(jq <<<"$goJson" -c '{
